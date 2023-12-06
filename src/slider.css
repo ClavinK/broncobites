@@ -1,0 +1,149 @@
+#app {
+  height: 100%
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+:root {
+  --primary: #6a59ff;
+  --white: #ffffff;
+  --bg: #f5f5f5;
+}
+
+.swipe {
+  overflow: visible;
+  visibility: hidden;
+  position: relative;
+}
+
+body {
+  background-color: rgba(156, 156, 156, 0.986);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+  display: grid;
+  place-items: center;
+  background-color: white;
+  border: 2px solid #868585;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.container {
+  max-width: 124rem;
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slide-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper {
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-controller {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-controler .swiper-button-next {
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+.slider-controler .slider-arrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.rlist {
+  margin-top: 100px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.rlist {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+.swiper-pagination {
+  bottom: 10px;
+  left: 50%;
+  z-index: 10;
+}
+
+
+
+.img {
+  object-fit: cover;
+  display: grid;
+}
+
+.round {
+  border-radius: 10px;
+  /* Set border-radius for rounded edges */
+  overflow: hidden;
+  /* Hide overflowing content */
+  background-color: #f0f0f0;
+  /* Change the background color as needed */
+}
+
+.logo {
+  padding: 5px;
+}
