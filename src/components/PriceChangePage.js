@@ -6,7 +6,7 @@ const PriceChangePage = () => {
     const [restaurants, setRestaurants] = useState([]);
 
     useEffect(() => {
-        axios.get('https://bronco-bites-backend-files-ae95bc7ab207.herokuapp.com/')
+        axios.get('https://broncobites-7f6a4d17acb3.herokuapp.com/')
             .then(response => {
                 setRestaurants(response.data);
             })

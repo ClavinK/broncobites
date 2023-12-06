@@ -14,7 +14,7 @@ function Signup() {
         setError('');
 
         try {
-            const response = await axios.post("https://bronco-bites-backend-files-ae95bc7ab207.herokuapp.com/account/signup", { email, password });
+            const response = await axios.post("https://broncobites-7f6a4d17acb3.herokuapp.com/account/signup", { email, password });
             localStorage.setItem('token', response.data.token);
             history("/login");
         } catch (error) {

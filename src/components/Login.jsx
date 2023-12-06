@@ -29,7 +29,7 @@ function Login() {
         }
 
         try {
-            const response = await axiosInstance.post("https://bronco-bites-backend-files-ae95bc7ab207.herokuapp.com/account/login", { email, password });
+            const response = await axiosInstance.post("https://broncobites-7f6a4d17acb3.herokuapp.com/account/login", { email, password });
             localStorage.setItem('token', response.data.token);
             history("/restaurants");
         } catch (error) {

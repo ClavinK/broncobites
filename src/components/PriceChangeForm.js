@@ -37,7 +37,7 @@ const PriceChangeForm = ({ restaurants }) => {
     };
 
     try {
-      const response = await axios.post('https://bronco-bites-backend-files-ae95bc7ab207.herokuapp.com/pricechange', payload);
+      const response = await axios.post('https://broncobites-7f6a4d17acb3.herokuapp.com/pricechange', payload);
       console.log(response.data);
     } catch (error) {
       console.error('Error submitting price change:', error);
