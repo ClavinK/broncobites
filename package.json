@@ -1,8 +1,6 @@
 {
   "name": "bronco-bites",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "https://bronco-bites-backend-files-ae95bc7ab207.herokuapp.com/",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.17.0",
@@ -43,6 +41,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://clavink.github.io/broncobites/",
   "browserslist": {
     "production": [
       ">0.2%",
