@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/broncobites/static/css/main.651999ec.css",
+    "main.js": "/broncobites/static/js/main.14157289.js",
+    "static/media/subway.jpg": "/broncobites/static/media/subway.650c10739d342a1a86e5.jpg",
+    "static/media/starbucks.png": "/broncobites/static/media/starbucks.b384e222b73bf7a64d80.png",
+    "static/media/cpp.jpg": "/broncobites/static/media/cpp.4e85f027d4425e0e3e53.jpg",
+    "static/media/panda.jpg": "/broncobites/static/media/panda.64f01406d8f3753bd8d0.jpg",
+    "static/media/ig.jpg": "/broncobites/static/media/ig.d7237a425b3969f036ff.jpg",
+    "static/media/polly.png": "/broncobites/static/media/polly.54352049780807990511.png",
+    "static/media/freshesc.jpg": "/broncobites/static/media/freshesc.0a46b94893cd73875dac.jpg",
+    "static/media/freshescape.jpg": "/broncobites/static/media/freshescape.0a46b94893cd73875dac.jpg",
+    "static/media/qdoba1.jpg": "/broncobites/static/media/qdoba1.d85556c30510b301449c.jpg",
+    "static/media/carls.png": "/broncobites/static/media/carls.77359580c207fccafdcc.png",
+    "static/media/hibachi.jpg": "/broncobites/static/media/hibachi.d3391026ed60033832e7.jpg",
+    "static/media/sushibar.jpg": "/broncobites/static/media/sushibar.d343d540ffe06c0e6199.jpg",
+    "static/media/saddles.jpg": "/broncobites/static/media/saddles.2f394633a19b1f7e83af.jpg",
+    "static/media/qdoba.png": "/broncobites/static/media/qdoba.4ac5a042940d45922129.png",
+    "static/media/element.jpg": "/broncobites/static/media/element.336833b3cff359fbefc7.jpg",
+    "static/media/bricbreak.jpg": "/broncobites/static/media/bricbreak.a812b2f02cac6e1c3d2d.jpg",
+    "index.html": "/broncobites/index.html",
+    "main.651999ec.css.map": "/broncobites/static/css/main.651999ec.css.map",
+    "main.14157289.js.map": "/broncobites/static/js/main.14157289.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.651999ec.css",
+    "static/js/main.14157289.js"
+  ]
+}
